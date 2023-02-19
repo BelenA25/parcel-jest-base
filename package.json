@@ -4,7 +4,7 @@
   "description": "",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index-saludador.html",
     "build": "parcel build index.html",
     "test": "jest --watch",
     "test-once": "jest --verbose --coverage",
@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",
-    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-env": "^7.20.2",
     "babel-jest": "^27.4.6",
     "cypress": "^10.11.0",
     "jest": "^27.4.7",
